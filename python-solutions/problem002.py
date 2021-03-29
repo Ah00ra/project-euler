@@ -9,10 +9,10 @@ def main():
     nth = n1 + n2
     summ = 0
     while n1 < 4000000:
-            if is_even(n1):
-                summ += n1
-            n1, n2 = n2, nth
-            nth = n1 + n2
+        if is_even(n1):
+            summ += n1
+        n1, n2 = n2, nth
+        nth = n1 + n2
     return summ
 
 
